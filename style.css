@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+
+label{
+    font-family: 'Gluten', cursive;
+    font-size: xx-large;
+    position: fixed;
+    top: 0;
+    left:32.5%;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 80px;
+}
+
+#take_snapshot{
+    position:relative; 
+    left:-125px; 
+    top:500px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.o{
+    position:relative; 
+    left:125px; 
+    top:100px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.a{
+    position:relative; 
+    left:0px; 
+    top:150px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
