@@ -34,3 +34,7 @@ function gotResult(error, results){
         document.getElementById("accuracy").innerHTML = accuracy;
     }
 }
+
+function take_snapshot(){
+    save("myImg.png")
+}
